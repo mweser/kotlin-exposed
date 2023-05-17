@@ -2,8 +2,7 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 import org.jetbrains.kotlin.konan.properties.loadProperties
 
 plugins {
-    kotlin("jvm") version "1.5.31"
-    application
+    kotlin("jvm") version "1.6.21"
     id("com.jetbrains.exposed.gradle.plugin") version "0.2.1"
 }
 
